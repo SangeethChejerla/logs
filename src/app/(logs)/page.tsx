@@ -1,11 +1,7 @@
 // app/page.tsx
 'use client';
 
-import {
-  createEntry,
-  deleteEntry,
-  getAllEntries,
-} from '@/actions/entryActions'; // Import server actions
+import { createEntry, deleteEntry, getAllEntries } from '@/actions/entryAction';
 import EntryEditor from '@/components/EntryEditor';
 import EntryList from '@/components/EntryList';
 import { DiaryEntry } from '@/types';

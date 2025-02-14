@@ -1,7 +1,7 @@
 // app/[id]/EntryPageClient.tsx (Client Component)
 'use client';
 
-import { getEntry, updateEntry } from '@/actions/entryActions'; // Import server actions
+import { getEntry, updateEntry } from '@/actions/entryAction';
 import EntryEditor from '@/components/EntryEditor';
 import { DiaryEntry } from '@/types';
 import { useEffect, useState } from 'react';
